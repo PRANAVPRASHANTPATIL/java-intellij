@@ -1,0 +1,18 @@
+public class shorthandoperater {
+    public static void main(String[] args) {
+        int x = 10;
+
+        x += 5;  // x = 15
+        x -= 3;  // x = 12
+        x *= 2;  // x = 24
+        x /= 4;  // x = 6
+        x %= 4;  // x = 2
+
+        System.out.println("Final value of x: " + x);
+    }
+}
+/*
+ i++;   // shorthand for i = i + 1
+i--;   // shorthand for i = i - 1
+
+*/
